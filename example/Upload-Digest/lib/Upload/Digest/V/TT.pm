@@ -1,5 +1,6 @@
 package # Hide from PAUSE
 Upload::Digest::V::TT;
+our $VERSION = '0.03';
 
 use strict;
 use base qw< Catalyst::View::TT >;

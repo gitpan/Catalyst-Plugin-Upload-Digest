@@ -1,13 +1,13 @@
 package Catalyst::Plugin::Upload::Digest;
+our $VERSION = '0.03';
 use strict;
 
 use Catalyst::Request::Upload;
 use Digest;
 
-our $VERSION = '0.02';
-
 {
     package Catalyst::Request::Upload;
+our $VERSION = '0.03';
 
     sub digest {
         my $self = shift;
